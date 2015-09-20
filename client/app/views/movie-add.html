@@ -1,0 +1,11 @@
+<form role="form">
+	<div class="form-group">
+		<label for="title" class="control-label">Title</label>
+		<input type="text" ng-model="movie.title" class="form-control" id="title" placeholder="Enter the Movie Title">
+	</div>
+	<div class="form-group">
+		<label for="url" class="control-label">Url</label>
+		<input type="text" ng-model="movie.url" class="form-control" id="url" placeholder="Enter the Youtube Url">
+	</div>
+	<button class="btn btn-primary" type="submit" ng-click="saveMovie()">Save</button>
+</form>
